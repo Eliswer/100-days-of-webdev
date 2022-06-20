@@ -9,6 +9,7 @@ header {
   align-items: center;
   padding: 15px 60px;
   position: absolute;
+  /* excluded from normal workflow*/
   width: 100%;
   box-sizing: border-box;
 }

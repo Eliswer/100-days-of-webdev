@@ -8,6 +8,9 @@ html {
   --color-primary-700: rgb(0, 170, 255);
   /*--var name-indication of lightness/darkness*/
 
+  --size-1: 18px;
+  --size-5: 50px;
+
   background-color: var(--color-grey-100);
   font-family: 'Krub', sans-serif;
   font-weight: 400;
@@ -41,7 +44,7 @@ h1 {
   background-color: var(--color-primary-300);
   text-align: center;
   margin: 30px auto 10px auto;
-  font-size: 50px;
+  font-size: var(--size-5);
   font-weight: 600;
 }
 
@@ -86,7 +89,7 @@ h1 {
   padding: 10px;
   margin: 0 0 30px 0;
   border: 2px solid rgb(224, 224, 224);
-  font-size: 18px;
+  font-size: var(--size-1);
   font-weight: 600;
 }
 

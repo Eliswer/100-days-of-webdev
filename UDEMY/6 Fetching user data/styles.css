@@ -1,15 +1,49 @@
 body {
   background-color: rgb(31, 30, 30);
   margin: 8rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+form {
+  width: 30rem;
+  margin: 3rem auto;
+  background-color: rgb(255, 255, 255);
+  padding: 1rem;
+  border-radius: 6px;
+}
+
+label {
+  margin-bottom: 0.5rem;
 }
 
 input {
-  width: 20rem;
+  width: 100%;
+  /*our inout will be 100% of the parent element which in our case is 'form'*/
   display: block;
-  margin: 1rem;
-  margin-left: 0;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+  font: inherit;
+  border: 1px solid rgb(184, 184, 184);
+  padding: 0.25rem;
+  color: rgb(65, 65, 65);
+}
+
+input:focus {
+  background-color: rgb(213, 130, 255);
+  color: rgb(160, 59, 255);
+  border-color: rgb(160, 59, 255);
 }
 
 button {
   display: block;
+  font: inherit;
+  background-color: rgb(160, 59, 255);
+  color: white;
+  border: 1px solid rgb(160, 59, 255);
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(175, 89, 255);
 }

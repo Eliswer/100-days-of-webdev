@@ -4,6 +4,17 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+h1 {
+  text-align: center;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 form {
   width: 30rem;
   margin: 3rem auto;
@@ -15,11 +26,11 @@ form {
 label {
   margin-bottom: 0.5rem;
   display: block;
-  /*DOES NOT WORK ???*/
 }
 
 input,
-textarea {
+textarea,
+select {
   width: 100%;
   /*our inout will be 100% of the parent element which in our case is 'form'*/
   display: block;

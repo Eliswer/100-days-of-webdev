@@ -16,7 +16,54 @@
         <! -- Now we will load the file in action -->
             <label for="username">Your name</label>
             <input type="text" name="user-name" id="username">
-            <button>Submit</button>
+
+            <label for="usermessage">Your message</label>
+            <textarea id="usermessage" name="user-message"></textarea>
+
+            <label for="useremail">Your email adress</label>
+            <input type="email" name="user-email" id="useremail">
+
+            <label for="userage">Your age</label>
+            <input type="number" step="1" name="user-age" id="userage">
+
+            <label for="userpassword">Your password</label>
+            <input type="password" name="user-password" id="userpassword">
+
+            <label for="userbirthdate">Your birthdate</label>
+            <input type="date" name="user-birthdate" id="userbirthdate">
+            <hr>
+            <h2>How should we verify your account ?</h2>
+            <div class="form-control-inline">
+                <input type="radio" name="verify" id="verify-text-message" value="text-mesage">
+                <label for="verify-text-message">Via text message (SMS)</label>
+            </div>
+            <div class="form-control-inline">
+                <input type="radio" name="verify" id="verify-phone" value="phone">
+                <label for="verify-phone">Via phone call</label>
+            </div>
+            <div class="form-control-inline">
+                <input type="radio" name="verify" id="verify-email" value="email">
+                <label for="verify-email">Via an email</label>
+            </div>
+            <hr>
+            <div class="form-control-inline">
+                <input type="checkbox" id="agree-terms" name="terms">
+                <label for="agree-terms">Agree to terms</label>
+            </div>
+            <div class="form-control-inline">
+                <input type="checkbox" id="contact-email" name="contact" value="email">
+                <label for="contact-email">Contact me via email</label>
+            </div>
+            <div class="form-control-inline">
+                <input type="checkbox" id="contact-phone" name="contact" value="phone">
+                <label for="contact-phone">Contact me via phone</label>
+            </div>
+            <! -- 'Name' is an identifier that we can use on the server, and will be grouped together -->
+                <! -- The value attribute is used differently for different input types: // For "button" , "reset" ,
+                    and "submit" - it defines the text on the button // For "text" , "password" , and "hidden" - it
+                    defines the initial (default) value of the input field // For "checkbox" , "radio" , "image" - it
+                    defines the value associated with the input (this is also the value that is sent on submit) -->
+                    <button>Submit</button>
     </form>
 </body>
 

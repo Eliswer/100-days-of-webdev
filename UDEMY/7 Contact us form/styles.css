@@ -1,0 +1,17 @@
+body {
+  background-color: rgb(226, 255, 255);
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin: 2rem;
+}
+
+form {
+  width: 40rem;
+  margin: auto;
+  background-color: rgb(244, 246, 255);
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgb(0, 0, 0, 0.2);
+}

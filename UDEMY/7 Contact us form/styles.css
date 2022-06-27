@@ -28,9 +28,8 @@ ul {
 
 label {
   color: rgb(66, 76, 95);
-  display: block;
-  margin-bottom: 5rem 0;
-  /DOES NOT WORK/
+  display: inline-block;
+  margin: 1rem 0;
 }
 
 input,
@@ -43,6 +42,9 @@ select {
   border-radius: 4px;
   box-sizing: border-box;
   width: 100%;
+}
+
+#accept-terms {
 }
 
 textarea {
@@ -95,5 +97,20 @@ button {
 }
 
 .btn-empty:hover {
-  background-color: rgn(208, 215, 230);
+  background-color: rbn(208, 215, 230);
+}
+
+#terms-of-service {
+  display: flex;
+  flex-direction: row;
+}
+
+#terms-of-service input {
+  display: flex;
+  align-self: center;
+  width: auto;
+}
+
+#terms-of-service label {
+  margin-left: 0.5rem;
 }

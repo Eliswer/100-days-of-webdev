@@ -15,3 +15,85 @@ form {
   padding: 1rem;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
+
+section {
+  margin: 1rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+label {
+  color: rgb(66, 76, 95);
+  display: block;
+  margin-bottom: 5rem 0;
+  /DOES NOT WORK/
+}
+
+input,
+textarea,
+select {
+  font: inherit;
+  padding: 0.5rem;
+  border: 1px solid rgb(146, 179, 178);
+  display: block;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+textarea {
+  resize: none;
+}
+
+input:focus,
+textarea:focus {
+  background-color: rgb(217, 227, 247);
+}
+
+.inline-control {
+  display: flex;
+}
+
+.inline-control input {
+  width: auto;
+}
+
+.inline-control label {
+  margin: 0;
+  margin-left: 0.5rem;
+}
+
+button {
+  font: inherit;
+  border: 1px solid rgb(51, 67, 1000);
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#form-actions {
+  text-align: right;
+}
+
+.btn-filled {
+  background-color: rgb(51, 67, 100);
+  color: white;
+}
+
+.btn-filled:hover {
+  background-color: rgb(69, 89, 129);
+  border-color: rgb(69, 89, 129);
+}
+
+.btn-empty {
+  background-color: transparent;
+  color: rgb(51, 67, 100);
+}
+
+.btn-empty:hover {
+  background-color: rgn(208, 215, 230);
+}

@@ -97,7 +97,7 @@ button {
 }
 
 .btn-empty:hover {
-  background-color: rbn(208, 215, 230);
+  background-color: rgb(208, 215, 230);
 }
 
 #terms-of-service {

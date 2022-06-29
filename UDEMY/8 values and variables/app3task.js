@@ -53,3 +53,6 @@ function getListItem(array, arrayIndex) {
 }
 
 // 6) Execute your custom command from (5) and output ("alert") the result
+
+let firstGoal = getListItem(onlineCourse.goals, 0);
+alert(firstGoal);
